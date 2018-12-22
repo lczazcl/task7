@@ -1,0 +1,56 @@
+/*
+* @Author: Administrator
+* @Date:   2018-12-22 09:17:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-12-22 10:09:28
+*/
+body{
+	font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+	font-size: 14px;
+	color: #87968e;
+	background: #fff2e3;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color:#72b890;
+}
+ul,li{
+	list-style: none;
+}
+#header h1{
+	font-size:42px;
+}
+.intro{
+	margin-top: 10px;
+	opacity: .6;
+}
+#header .demo-btns{
+	margin:40px 0;
+}
+#header .demo-btns>li{
+	display: inline-block;
+}
+.btn{
+	display: inline-block;
+	margin:3px;
+	background:#72b890;
+	color:#FFF;
+	padding:6px 14px;
+	border-radius:2px;
+}
+.btn:hover{
+	opacity: 0.8;
+}
+#header .demo-btns .btn.active{
+	opacity: 0.6;
+}
+#content .btns{
+	margin-top: 30px;
+}
+#content .btns li{
+	display: inline-block;
+}
+#footer{
+	margin-top:30px;
+}
